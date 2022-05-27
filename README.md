@@ -1,4 +1,4 @@
 # NODE-JS--TODO-LIST
-A Small app developed in NodeJs that works as a TODO List. 
+A Small Blog app developed in NodeJs. 
 Just simply execute `npm install`
 ![Example screenshot](./portada.jpg)
