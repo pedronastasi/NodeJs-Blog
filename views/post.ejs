@@ -1,0 +1,22 @@
+<%- include('partials/header') -%>
+
+    <body>
+        <% if (sortedPost.lenght!==0 ){%>
+            <% sortedPost.forEach(post=> { %>
+
+                <h1>
+                    <%=post.title %>
+                </h1>
+                <p>
+                    <%= post.postText %>
+                </p>
+                <%})%>
+                    <%}else{%>
+                        <p>
+                            No post found with that criteria
+                        </p>
+                        <% } %>
+
+    </body>
+
+    <%- include('partials/footer') -%>
